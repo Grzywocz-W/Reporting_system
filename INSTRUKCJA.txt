@@ -1,0 +1,17 @@
+INSTRUKCJA:
+Program składa się z 3 plików Python (Zadanie, Raport i Backup) i jednego pliku Batch, który steruje całym projektem.
+
+Aby uruchomić program wystarczy nacisnąć dwukrotnie na plik Batch "BAT EXE wykonujący". Następnie powinno się postępować zgodnie z wyświetlanymi instrukcjami.
+
+Aby dodać nowe dane wejściowe dla programu należy zapisać je w odpowiedniej formie (zgodnej z tą która jest w pliku wejsciePrzyk.txt) w pliku txt i najwygodniej jest ten plik umieścić w folderze projektu.
+
+
+Jeśli pojawiłby się problem z działaniem programu dodałem na wszelki wypadek również w folderze projektu plik Batch "Instalator modulow potrzebnych". Jest to plik, który automatycznie zainstaluje potrzebne do działania programu biblioteki. Wystarczy kliknąć dwukrotnie na niego.
+
+
+Program działa w oparciu o zadanie z XXVIII Olimpiady informatycznej "Licznik długu". W skrócie polega ono na tym iż otrzymujemy dane o długu wewnętrznym pewnego państwa i jego długu zagranicznym i mamy zbudować oprogramowanie do wyświetlacza długu sumarycznego. Jako dane otrzymujemy nie tylko początkowe kwoty długów ale również dostajemy informacje jak zmieniają się poszczególne pozycje/cyfry obu długów i na podstawie tych zmian wartości mamy aktualizować wyświetlacz wyświetlający dług sumaryczny.
+Wykorzystując matematyczną wiedzę i zależności między liczbami oparłem algorytm w głównym pliku Zadanie.py o pisemne działania matematyczne.
+Dla efektu wizualnego aby zmiany długu były lepiej widoczne postanowiłem dodać moduł Tkinter który pozwala na wyświetlenie w formie graficznej wskaźnika długu sumarycznego.
+
+
+Autor: Wojciech Grzywocz
